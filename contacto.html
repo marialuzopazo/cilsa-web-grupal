@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta a consentidos pet shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos-comunes.css">
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header class="container-fluid bg-light p-2">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <a href="/" class="d-block">
+                    <img src="logo fondo blanco.png" alt="Logo de Pet Shop" class="img-fluid" style="max-height: 500px;">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <img src="BANNER PAGINA WEB TP GRUPAL .png" alt="Banner de Pet Shop" class="img-fluid">
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">consentidos - pet shop </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/alimentos">Alimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/productos">Productos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contacto">Contacto <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <section class="mb-4">
+            <h2 class="text-center mb-3">Queremos atenderte, a continuación podés dejar tus dudas en el siguiente formulario:</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="celular">Celular:</label>
+                    <input type="tel" class="form-control" id="celular" name="celular">
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" class="form-control" id="asunto" name="asunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block bg-violet">Enviar</button>
+            </form>
+        </section>
+
+        <section class="mb-4">
+            <h3>Visitá nuestro local</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="fotolocal.jpg" alt="Fachada del Local Pet Shop" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Dirección:</strong> Calle Falsa 1234, Capital Federal, Buenos Aires</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171448.786269934!2d-60.4951876689971!3d-34.61575588918839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f05fd5c5%3A0x3cb21951431a01ba!2sBuenos%20Aires!5e0!3m2!1ses-419!2sar!4v1714823888123!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light py-3 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Seguinos en redes sociales para novedades y promos :</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/" class="text-dark"><i class="fab fa-facebook-square fa-lg mr-2"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" class="text-dark"><i class="fab fa-instagram fa-lg mr-2"></i> Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-right">
+                    <h5>Información de contacto:</h5>
+                    <p><i class="fas fa-phone fa-sm mr-2"></i> Teléfono: +54 9 (011) 36549877</p>
+                    <p><i class="fas fa-envelope fa-sm mr-2"></i> Email: info@consentidospetshop.com</p>
+                    <p><i class="fas fa-map-marker-alt fa-sm mr-2"></i> Dirección: Calle Falsa 1234, capital federal, buenos aires</p>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12 text-center text-muted">
+                    <p>&copy; 2025 Pet shop consentidos -  cilsa tp grupal </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>

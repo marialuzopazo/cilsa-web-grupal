@@ -1,0 +1,16 @@
+/* Estilos específicos para la página de contacto */
+
+body {
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Letras negras */
+}
+
+.bg-violet {
+    background-color: #e28d2b !important; /* Color violeta para el botón */
+    border-color: #e28d2b !important;
+}
+
+.bg-violet:hover {
+    background-color: #e28d2b !important; /* Un tono más oscuro al pasar el mouse */
+    border-color: #e28d2b !important;
+}
