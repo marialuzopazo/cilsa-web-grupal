@@ -10,7 +10,7 @@ DIARIO DE AVANCES:
 03/05: llamada grupal, se define la tematica de la pagina, las partes de la web y la proxima fecha para reunirnos a probar cambios / creación del repositorio grupal en git 
 avances individuales: 03/05 sonia adjunto validaciones para tablet y notebook 
 ***********************
-04/05: luz agrego footer y barra navegación para compartir en cada html 
+04/05: luz agregó footer y barra navegación para compartir en cada html 
 ***********************
 ![estructura web](https://github.com/user-attachments/assets/e3a667ab-028f-4b8e-92ab-17cc53b5c8a0)
 
