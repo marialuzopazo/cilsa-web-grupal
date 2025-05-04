@@ -4,4 +4,4 @@ en este repositorio esta el trabajo grupal de nestor, ismael, sonia, luz
 PARTE ELEGIDA ISMAEL :
 PARTE ELEGIDA NESTOR :
 PARTE ELEGIDA SONIA : 
-PARTE ELEGIDA LUZ : 
+PARTE ELEGIDA LUZ : pagina principal 
