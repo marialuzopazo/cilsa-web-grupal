@@ -12,6 +12,7 @@ avances individuales: 03/05 sonia adjunto validaciones para tablet y notebook
 ***********************
 4 de mayo : luz adjunto footer y barra navegación para compartir en cada html 
 Nestor creo una Imagen de oferta y logo de empresa "Consentidos petshop" con chat gpt.
+luz - adjunto html + css + foto local pet shop ficticia para pagina CONTACTO 
 
 ***********************
 ![estructura web](https://github.com/user-attachments/assets/e3a667ab-028f-4b8e-92ab-17cc53b5c8a0)
