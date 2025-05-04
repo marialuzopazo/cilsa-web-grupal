@@ -2,7 +2,7 @@
 en este repositorio esta el trabajo grupal de nestor, ismael, sonia, luz
 ![borrador inicial](https://github.com/user-attachments/assets/97cabee3-a20f-4dbc-9d00-44c3a029213c)
 PARTE ELEGIDA ISMAEL :
-PARTE ELEGIDA NESTOR :
+PARTE ELEGIDA NESTOR : Carrousel con los productos de promocion -Fondo blanco en lo posible- (opcional en caso de ser necesario Formulario y Validaciones del mismo y estilos de contraste para facilitar accesibilidad web. )
 PARTE ELEGIDA SONIA : 
 PARTE ELEGIDA LUZ : pagina principal 
 **********************
@@ -11,6 +11,8 @@ DIARIO DE AVANCES:
 avances individuales: 03/05 sonia adjunto validaciones para tablet y notebook 
 ***********************
 4 de mayo : luz adjunto footer y barra navegación para compartir en cada html 
+Nestor creo una Imagen de oferta y logo de empresa "Consentidos petshop" con chat gpt.
+
 ***********************
 ![estructura web](https://github.com/user-attachments/assets/e3a667ab-028f-4b8e-92ab-17cc53b5c8a0)
 
