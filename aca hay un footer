@@ -1,0 +1,30 @@
+<footer class="bg-light py-3 mt-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>te invitamos a seguirnos en nuestras redes sociales,para novedades y promos:</h5>
+                <ul class="list-unstyled">
+                    <!--aca se modifica el href y se colocan los links de cada red social ( avisen si se agrega alguna red social asi todos lo tenemos )-->
+                    <li><a href="https://www.facebook.com/" class="text-dark"><i class="fab fa-facebook-square fa-lg mr-2"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com/" class="text-dark"><i class="fab fa-instagram fa-lg mr-2"></i> Instagram</a></li>
+                    </ul>
+            </div>
+            <div class="col-md-6 text-right">
+                <h5>Información de contacto:</h5>
+                <p><i class="fas fa-phone fa-sm mr-2"></i> Teléfono: +54 9 (011) 36549877</p>
+                <p><i class="fas fa-envelope fa-sm mr-2"></i> Email: info@consentidospetshop.com</p>
+                <p><i class="fas fa-map-marker-alt fa-sm mr-2"></i> Dirección: Calle Falsa 123,capital federal</p>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-12 text-center text-muted">
+                <p>&copy; 2025 consentidos pet shop - tp grupal cilsa </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
