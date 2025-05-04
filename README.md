@@ -4,7 +4,7 @@ en este repositorio esta el trabajo grupal de nestor, ismael, sonia, luz
 PARTE ELEGIDA ISMAEL :
 PARTE ELEGIDA NESTOR : Carrousel con los productos de promocion -Fondo blanco en lo posible- (opcional en caso de ser necesario Formulario y Validaciones del mismo y estilos de contraste para facilitar accesibilidad web. )
 PARTE ELEGIDA SONIA : 
-PARTE ELEGIDA LUZ : pagina principal 
+PARTE ELEGIDA LUZ : contacto / html 
 **********************
 DIARIO DE AVANCES: 
 3 de mayo: llamada grupal, se define la tematica de la pagina, las partes de la web y la proxima fecha para reunirnos a probar cambios / creación del repositorio grupal en git 
