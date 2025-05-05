@@ -1,13 +1,17 @@
 # cilsa-web-grupal
-en este repositorio esta el trabajo grupal de nestor, ismael, sonia, luz
+# en este repositorio esta el trabajo grupal de nestor, ismael, sonia, luz
 ![borrador inicial](https://github.com/user-attachments/assets/97cabee3-a20f-4dbc-9d00-44c3a029213c)
 PARTE ELEGIDA ISMAEL :
 PARTE ELEGIDA NESTOR : Carrousel con los productos de promocion -Fondo blanco en lo posible- (opcional en caso de ser necesario Formulario y Validaciones del mismo y estilos de contraste para facilitar accesibilidad web. )
 PARTE ELEGIDA SONIA : 
 PARTE ELEGIDA LUZ : contacto / html 
 **********************
-DIARIO DE AVANCES: 
-3 de mayo: llamada grupal, se define la tematica de la pagina, las partes de la web y la proxima fecha para reunirnos a probar cambios / creación del repositorio grupal en git 
+# DIARIO DE AVANCES: 
+3 de mayo: 
+* llamada grupal
+* se define la tematica de la pagina, las partes de la web
+* la proxima fecha para reunirnos a probar cambios
+*  creación del repositorio grupal en git 
 avances individuales: 03/05 sonia adjunto validaciones para tablet y notebook 
 ***********************
 4 de mayo : luz adjunto footer y barra navegación para compartir en cada html 
