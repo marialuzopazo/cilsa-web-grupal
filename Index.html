@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/estilos-comunes.css">-->
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header class="container-fluid bg-light p-2">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <a href="/" class="d-block">
+                    <img src="../Imagenes petshop/logo fondo blanco.png" alt="Logo de Pet Shop" class="img-fluid" style="max-height: 500px;">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <img src="../Imagenes petshop/banner logo empresa.png" alt="Banner de Pet Shop" class="img-fluid">
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">consentidos - pet shop </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/alimentos">Alimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/productos">Productos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contacto">Contacto <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!--Aca arranco con la parte central -->
+
+<!--Primero el carrusel con productos destacados-->
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../Imagenes petshop/CamaPerro.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" id="im2">
+        <img src="../Imagenes petshop/sogaperro.jpg" class="d-block" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--Carrusel de las ofertas -->
+
+    <footer class="bg-light py-3 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>te invitamos a seguirnos en nuestras redes sociales,para novedades y promos:</h5>
+                    <ul class="list-unstyled">
+                        <!--aca se modifica el href y se colocan los links de cada red social ( avisen si se agrega alguna red social asi todos lo tenemos )-->
+                        <li><a href="https://www.facebook.com/" class="text-dark"><i class="fab fa-facebook-square fa-lg mr-2"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" class="text-dark"><i class="fab fa-instagram fa-lg mr-2"></i> Instagram</a></li>
+                        </ul>
+                </div>
+                <div class="col-md-6 text-right">
+                    <h5>Información de contacto:</h5>
+                    <p><i class="fas fa-phone fa-sm mr-2"></i> Teléfono: +54 9 (011) 36549877</p>
+                    <p><i class="fas fa-envelope fa-sm mr-2"></i> Email: info@consentidospetshop.com</p>
+                    <p><i class="fas fa-map-marker-alt fa-sm mr-2"></i> Dirección: Calle Falsa 123,capital federal</p>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12 text-center text-muted">
+                    <p>&copy; 2025 consentidos pet shop - tp grupal cilsa </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    
+</body>
+</html>
