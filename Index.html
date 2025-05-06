@@ -11,7 +11,7 @@
 </head>
 <body>
     <!--Encabezado -->    
-    <header class="container-fluid bg-light p-2">
+    <header class="container-fluid" style="background-color: rgb(250, 250, 105);">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12 text-center">
                 <a href="/" class="d-block">
@@ -25,7 +25,7 @@
     </header>
     
     <!--Barra de-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(179, 175, 175);">
         <a class="navbar-brand" href="/">consentidos - pet shop </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,8 +48,8 @@
         </div>
     </nav>
 <!--Aca arranco con la parte central -->
-<div>
-    <h1>Productos destacados</h1>
+<div class="ProdDest">
+    <h2 style="text-align: center; font-size: 2em; font-weight: bold; color: #333;margin-bottom: 20px; text-transform: uppercase;">Productos destacados</h2>
 </div>
 <!--Primero el carrusel con productos destacados-->
 <div id="carouselExampleCaptions" class="carousel slide">
@@ -68,8 +68,8 @@
           
             <!-- Texto del slide -->
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5 style="color: black; font-style: italic; font-size: medium;">Cama para perro</h5>
+              <p style="color: black; font-style: italic; font-size: medium;">Cama para perro super suave ideal para el buen descanso.</p>
             </div>
           </div>
           
@@ -77,8 +77,8 @@
             <img src="./Productos/huesitos.jpeg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover blur-bg" alt="blur">
             <img src="./Productos/huesitos.jpeg" class="position-relative d-block mx-auto h-100 object-fit-contain" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5 style="color: black; font-style: italic; font-size: medium;">Hueso para perro</h5>
+              <p style="color: black; font-style: italic; font-size: medium;">Comprale este hueso para tu mascota y te lo va a agradecer.</p>
             </div>
           </div>
           
@@ -87,8 +87,8 @@
             <img src="./Productos/pelota.jpeg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover blur-bg" alt="blur">
             <img src="./Productos/pelota.jpeg" class="position-relative d-block mx-auto h-100 object-fit-contain" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5 style="color: black; font-style: italic; font-size: medium;">Pelota de Tenis</h5>
+              <p style="color: black; font-style: italic; font-size: medium;">Tenemos las mejores pelotas de tenis, tu mascosta la va a amar!.</p>
             </div>
           </div>
     </div>
@@ -103,27 +103,53 @@
   </div>
 <!--Carrusel de las ofertas -->
 
-    <footer class="bg-light py-3 mt-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>te invitamos a seguirnos en nuestras redes sociales,para novedades y promos:</h5>
-                    <ul class="list-unstyled">
-                        <!--aca se modifica el href y se colocan los links de cada red social ( avisen si se agrega alguna red social asi todos lo tenemos )-->
-                        <li><a href="https://www.facebook.com/" class="text-dark"><i class="fab fa-facebook-square fa-lg mr-2"></i> Facebook</a></li>
-                        <li><a href="https://www.instagram.com/" class="text-dark"><i class="fab fa-instagram fa-lg mr-2"></i> Instagram</a></li>
-                        </ul>
-                </div>
-                <div class="col-md-6 text-right">
-                    <h5>Información de contacto:</h5>
-                    <p><i class="fas fa-phone fa-sm mr-2"></i> Teléfono: +54 9 (011) 36549877</p>
-                    <p><i class="fas fa-envelope fa-sm mr-2"></i> Email: info@consentidospetshop.com</p>
+    <footer class="footer-custom py-1 mt-4">
+        <div class="container-fluid w-100">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 text-md-start">
+                    <div class="d-flex align-items-center mb-1">
+                        <i class="fas fa-phone fa-sm me-2"></i>
+                        <span>Teléfono: +54 9 (011) 36549877</span>
+                      </div>
+                      <div class="d-flex align-items-center mb-1">
+                        <i class="fas fa-envelope fa-sm me-2"></i>
+                        <span>Email: info@consentidospetshop.com</span>
+                      </div>
+                      
+                    <!-- <h5>Información de contacto:</h5> 
+                     <p><i class="fas fa-phone fa-sm mr-2"></i> Teléfono: +54 9 (011) 36549877</p>
+                     <span></span>
+                     <p><i class="fas fa-envelope fa-sm mr-2"></i> Email: info@consentidospetshop.com</p>
+                     <p><i class="fas fa-map-marker-alt fa-sm mr-2"></i> Dirección: Calle Falsa 123,capital federal</p>-->
+                 </div>
+                <div class="col-md-4 text-md-center">
                     <p><i class="fas fa-map-marker-alt fa-sm mr-2"></i> Dirección: Calle Falsa 123,capital federal</p>
                 </div>
+                <div class="col-md-4 d-flex justify-content-md-end">
+                    <ul class="list-unstyled mb-0">
+                        <li class="d-flex align-items-center justify-content-end mb-1">
+                            <i class="fab fa-facebook-square fa-lg me-2"></i>
+                            <a href="https://www.facebook.com/" class="text-dark text-decoration-none">Facebook</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-end mb-1">
+                            <i class="fab fa-instagram fa-lg me-2"></i>
+                            <a href="https://www.instagram.com/" class="text-dark text-decoration-none">Instagram</a>
+                        </li>
+                    </ul>
+                    
+                    <!--<h5>te invitamos a seguirnos en nuestras redes sociales,para novedades y promos:</h5>
+                    <ul class="list-unstyled mb-0">
+                    aca se modifica el href y se colocan los links de cada red social ( avisen si se agrega alguna red social asi todos lo tenemos )                        
+                        <li><a href="https://www.facebook.com/" class="text-dark"><i class="fab fa-facebook-square fa-lg mr-2"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" class="text-dark"><i class="fab fa-instagram fa-lg mr-2"></i> Instagram</a></li>
+                    </ul>-->
+                </div>
+                                    
+                
             </div>
             <div class="row mt-2">
                 <div class="col-12 text-center text-muted">
-                    <p>&copy; 2025 consentidos pet shop - tp grupal cilsa </p>
+                    <small>&copy; 2025 consentidos pet shop - tp grupal cilsa </small>
                 </div>
             </div>
         </div>
