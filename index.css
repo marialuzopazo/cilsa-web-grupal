@@ -24,3 +24,12 @@ body {
     height: 500px;
 }
   
+.blur-bg {
+    filter: blur(30px) brightness(0.8);
+    z-index: 0;
+  }
+  
+  .carousel-item img.position-relative {
+    z-index: 1;
+  }
+  
