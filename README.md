@@ -22,6 +22,7 @@ avances individuales: 03/05 sonia adjunto validaciones para tablet y notebook
 ***********************
 5 de mayo :
 * Isma arranco el html y el css de la pagina de inicio, y comenzo con el carrusel pero falta mejorar que se adapten las imagenes.
+* Nestor Oferta para gatos.
 ***********************
 6 de mayo: 
 
