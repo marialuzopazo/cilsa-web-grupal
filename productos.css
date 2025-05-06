@@ -1,26 +1,34 @@
 /* styles.css */
 
 /* Ajuste general de las tarjetas */
-.card {
+/*.card {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
   
-  /* Tamaño uniforme de las imágenes */
+  /* Tamaño uniforme de las imágenes 
   .card-img-top {
     height: 200px;
     object-fit: cover;
     object-position: center;
   }
   
-  /* Espaciado entre los elementos */
+  /* Espaciado entre los elementos 
   .card-body {
     padding: 1rem;
   }
   
-  /* Ajuste del contenedor principal */
+  /* Ajuste del contenedor principal 
   .container .row > div {
     display: flex;
+  }
+*/
+  .card {
+    transition: box-shadow 0.3s ease; /* Para un efecto suave de la sombra */
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra al pasar el mouse */
   }
