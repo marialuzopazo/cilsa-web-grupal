@@ -53,27 +53,6 @@ footer ul {
     padding-left: 1rem;
 }
 
-/*.carousel-control-prev,
-.carousel-control-next {
-  background: none; /* Elimina el fondo 
-  border: none; /* Elimina el borde 
-  opacity: 0.5; /* Reduce la opacidad para que sean semi-transparentes por defecto 
-  transition: opacity 0.3s ease; /* Agrega una transición suave para el efecto hover 
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  opacity: 0.9; /* Aumenta la opacidad al pasar el mouse 
-  cursor: pointer; /* Cambia el cursor para indicar que son interactivos 
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.3); /* Un fondo oscuro semi-transparente para los iconos 
-  border-radius: 45%; /* Hace los iconos circulares (opcional) 
-  padding: 10px; /* Espacio alrededor del icono (ajusta según necesites) 
-}
-*/
 .carousel-control-prev,
 .carousel-control-next {
   background: none;
