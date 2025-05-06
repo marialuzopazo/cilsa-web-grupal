@@ -20,5 +20,10 @@ avances individuales: 03/05 sonia adjunto validaciones para tablet y notebook
 * luz - adjunto html + css + foto local pet shop ficticia para pagina CONTACTO 
 * sonia avanzo con la parte de la pagina de productos
 ***********************
+5 de mayo :
+* Isma arranco el html y el css de la pagina de inicio, y comenzo con el carrusel pero falta mejorar que se adapten las imagenes.
+***********************
+6 de mayo: 
+
 ![estructura web](https://github.com/user-attachments/assets/e3a667ab-028f-4b8e-92ab-17cc53b5c8a0)
 
