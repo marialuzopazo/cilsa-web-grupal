@@ -2,7 +2,7 @@
 # en este repositorio esta el trabajo grupal de nestor, ismael, sonia, luz
 ![borrador inicial](https://github.com/user-attachments/assets/97cabee3-a20f-4dbc-9d00-44c3a029213c)
 PARTE ELEGIDA ISMAEL : PAgina de inicio con carrusel con productos destacados y otro con promociones
-PARTE ELEGIDA NESTOR : Dropdown para catergorizar alimentos segun mascotas y Modal para Productos; Carrousel con los productos de promocion -Fondo blanco en lo posible- (opcional en caso de ser necesario Formulario y Validaciones del mismo y estilos de contraste para facilitar accesibilidad web. )
+PARTE ELEGIDA NESTOR : Dropdown para categorizar alimentos segun mascotas y Modal para Productos; Carrousel con los productos de promocion -Fondo blanco en lo posible- (opcional en caso de ser necesario Formulario y Validaciones del mismo y estilos de contraste para facilitar accesibilidad web. )
 PARTE ELEGIDA SONIA : 
 PARTE ELEGIDA LUZ : contacto / html 
 **********************
