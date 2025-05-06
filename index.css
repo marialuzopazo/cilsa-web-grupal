@@ -14,14 +14,3 @@ body {
     background-color: #e28d2b !important; /* Un tono más oscuro al pasar el mouse */
     border-color: #e28d2b !important;
 }
-header.container-fluid {
-    padding: 1rem; /* Reduce el padding del header */
-}
-
-header .col-md-4 img {
-    max-height: 150px; /* Reduce el tamaño máximo del logo */
-}
-
-header .col-md-8 img {
-    max-height: 200px; /* Reduce el tamaño máximo del banner */
-}
