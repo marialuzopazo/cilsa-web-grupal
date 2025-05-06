@@ -14,3 +14,13 @@ body {
     background-color: #e28d2b !important; /* Un tono más oscuro al pasar el mouse */
     border-color: #e28d2b !important;
 }
+.carousel-item img {
+    height: 100%;  
+    object-fit: contain;  /* opcional: recorta para mantener el encuadre */
+    width: 100%;
+  }
+
+.carousel-item{
+    height: 500px;
+}
+  
