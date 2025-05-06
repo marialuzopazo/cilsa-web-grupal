@@ -25,10 +25,10 @@ avances individuales: 03/05 sonia adjunto validaciones para tablet y notebook
 ***********************
 6 de mayo: 
 <<<<<<< HEAD
-* Nestor Oferta para gatos.
+* Nestor: Oferta para gatos,pelota para perro,hueso,catnip.
 * Ismael: Acomode mejor el carrusel de la pagina de inicio y revise que resalte el boton de inicio, algo a chequear en todos los html. Tambien empareje las cartas de productos para que tengas mismas dimensiones y le agregue un poco de css para que tengan sombreado cuando les pases el mouse por arriba. Habria que revisar que todos tengamos el mismo header, navbar y footer. Y realizar la paleta de colores .
 =======
-* Nestor: Oferta para gatos,pelota para perro,hueso,catnip.
+7 de mayo: 
 ***********************
 >>>>>>> 8b6f559045b98a893738e383a059d40df2f18ef5
 ![estructura web](https://github.com/user-attachments/assets/e3a667ab-028f-4b8e-92ab-17cc53b5c8a0)
