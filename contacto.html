@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos-comunes.css">
     <link rel="stylesheet" href="contacto.css">
+    <script src="contacto.js"></script>
 </head>
 <body>
     <!--Encabezado -->    
@@ -47,7 +48,7 @@
     <main class="container mt-4">
         <section class="mb-4">
             <h2 class="text-center mb-3">Queremos atenderte, a continuación podés dejar tus dudas en el siguiente formulario:</h2>
-            <form>
+            <form onsubmit="return validarFormulario()">
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
                     <input type="text" class="form-control" id="nombre" name="nombre" required>
