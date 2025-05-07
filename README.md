@@ -27,7 +27,7 @@ avances individuales: 03/05 sonia adjunto validaciones para tablet y notebook
  HEAD
 * Nestor: Oferta para gatos,pelota para perro,hueso,catnip.
 * Ismael: Acomode mejor el carrusel de la pagina de inicio y revise que resalte el boton de inicio, algo a chequear en todos los html. Tambien empareje las cartas de productos para que tengas mismas dimensiones y le agregue un poco de css para que tengan sombreado cuando les pases el mouse por arriba. Habria que revisar que todos tengamos el mismo header, navbar y footer. Y realizar la paleta de colores .
-=======
+***********************
 7 de mayo: 
 * Nestor: Agrego Modal a la seccion productos.
 ***********************
