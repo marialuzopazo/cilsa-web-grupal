@@ -1,30 +1,23 @@
-/* styles.css */
 
-/* Ajuste general de las tarjetas */
-/*.card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  /* Tamaño uniforme de las imágenes 
-  .card-img-top {
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-  }
-  
-  /* Espaciado entre los elementos 
-  .card-body {
-    padding: 1rem;
-  }
-  
-  /* Ajuste del contenedor principal 
-  .container .row > div {
-    display: flex;
-  }
-*/
+.footer-custom{
+  background-color:rgb(250, 250, 105);
+}
+  footer h5 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+footer p,
+footer li,
+footer a {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+footer ul {
+    padding-left: 1rem;
+}
+
   .card {
     transition: box-shadow 0.3s ease; /* Para un efecto suave de la sombra */
   }
