@@ -20,6 +20,7 @@ footer ul {
 
   .card {
     transition: box-shadow 0.3s ease; /* Para un efecto suave de la sombra */
+    cursor: pointer;
   }
   
   .card:hover {
