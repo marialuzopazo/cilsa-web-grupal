@@ -31,5 +31,7 @@ avances individuales: 03/05 sonia adjunto validaciones para tablet y notebook
 7 de mayo: 
 * Nestor: Agrego Modal a la seccion productos.
 ***********************
+8 de mayo:
+* Isma: Organice mejor los archivos en carpetas y solucione el footer en el html de productos-
 ![estructura web](https://github.com/user-attachments/assets/e3a667ab-028f-4b8e-92ab-17cc53b5c8a0)
 
